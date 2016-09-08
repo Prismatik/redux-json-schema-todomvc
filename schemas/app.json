@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Application state schema",
+  "type": "object",
+  "id": "app",
+  "properties": {
+    "todos": {
+      "type": "array",
+      "items": {
+        "$ref": "todo"
+      }
+    }
+  },
+  "required": ["todos"]
+}
