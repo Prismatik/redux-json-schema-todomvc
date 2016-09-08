@@ -4,9 +4,9 @@ This project template was built with [Create React App](https://github.com/faceb
 
 ## Warning
 
-This todomvc has a (deliberately introduced) subtle bug in it. Try creating a few todos, completing one of them, and then clicking "clear completed".
+This todomvc has a (deliberately introduced) subtle bug in it. Luckily, thanks to schema validation, it gets caught before it can do any harm.
 
-To understand what went wrong and how to fix it, check out [this pull request](https://github.com/Prismatik/redux-json-schema-todomvc/pull/1).
+If you'd like to try the version with no schema validation, check out [the master branch](https://github.com/Prismatik/redux-json-schema-todomvc/tree/master). If you'd like to see a breakdown of the changes, check out [this pull request](https://github.com/Prismatik/redux-json-schema-todomvc/pull/1).
 
 ## Available Scripts
 
