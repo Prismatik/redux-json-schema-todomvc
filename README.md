@@ -2,6 +2,12 @@
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+## Warning
+
+This todomvc has a (deliberately introduced) subtle bug in it. Try creating a few todos, completing one of them, and then clicking "clear completed".
+
+To understand what went wrong and how to fix it, check out [this pull request](https://github.com/Prismatik/redux-json-schema-todomvc/pull/1).
+
 ## Available Scripts
 
 In the project directory, you can run:
