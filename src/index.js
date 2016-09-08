@@ -8,7 +8,11 @@ import reducer from './reducers'
 import schemas from '../schemas'
 import 'todomvc-app-css/index.css'
 
-const store = createStore(createValidatedReducer(reducer, schemas.app, { schemas }))
+const store = createStore(
+  process.env.NODE_ENV === 'production'
+    ? reducer
+    : createValidatedReducer(reducer, 'app', { schemas })
+)
 
 render(
   <Provider store={store}>
